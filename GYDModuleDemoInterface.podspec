@@ -11,6 +11,16 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'Source/**/*'
+  s.subspec 'Base' do |ss|
+    ss.source_files = 'Source/Base/**/*'
+  end
+
+  s.subspec 'ModuleA' do |ss|
+    ss.source_files = 'Source/ModuleA/**/*'
+  end
+
+  s.subspec 'ModuleB' do |ss|
+    ss.source_files = 'Source/ModuleB/**/*'
+  end
 
 end
