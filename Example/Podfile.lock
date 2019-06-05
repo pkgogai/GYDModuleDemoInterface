@@ -1,0 +1,16 @@
+PODS:
+  - GYDModuleDemoInterface (0.0.1)
+
+DEPENDENCIES:
+  - GYDModuleDemoInterface (from `../`)
+
+EXTERNAL SOURCES:
+  GYDModuleDemoInterface:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  GYDModuleDemoInterface: ec43e2055198710eaf24c503463becba93c76045
+
+PODFILE CHECKSUM: 4ac1d4cfef25068f819bc4b84c990748d2f6755e
+
+COCOAPODS: 1.6.0.beta.2
